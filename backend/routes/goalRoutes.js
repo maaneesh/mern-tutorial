@@ -8,7 +8,7 @@ const {
 } = require("../controllers/goalController");
 
 //API //goals routes
-
+// router.get('/',getGoals)
 
 router.route('/').get(getGoals).post(setGoal)
 
